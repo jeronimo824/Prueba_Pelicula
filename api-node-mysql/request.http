@@ -1,0 +1,31 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "imagen": "https://placeimg.com/640/480/nature",
+    "Título": "Stephen Carloss",
+    "Descripción": "hbcdhbdchbdchbhbdchb",
+    "Duración":"2 horas",
+    "Múltiples categorías":1,
+    "Trailer de youtube":"nnjnsjxjnsxjn"
+    
+}
+
+###
+
+DELETE http://localhost:9000/api/1 HTTP/1.1
+
+###
+
+PUT http://localhost:9000/api/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "los 3 habitos d elas personas altamente malas",
+    "autor": "Stephen King",
+    "edicion": 7
+}
